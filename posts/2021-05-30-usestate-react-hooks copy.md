@@ -1,9 +1,9 @@
 ---
-date: 2021-31-05 16:00:00
+date: 2021-08-30 16:00:00
 title: useEffect - React Hooks
 description: Manipulando a página com useEffect - React Hooks
 category: React
-background: "#7AAB13"
+background: "red"
 ---
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:

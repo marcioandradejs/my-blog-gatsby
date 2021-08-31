@@ -1,5 +1,5 @@
 ---
-date: 2021-31-08 16:00:00
+date: 2021-08-31 16:00:00
 title: useState - React Hooks
 description: Manipulando States com useState - React Hooks
 category: Dev
