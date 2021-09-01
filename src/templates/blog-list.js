@@ -31,7 +31,7 @@ const BlogList = props => {
             background={background}
             category={category}
             date={date}
-            timeToRead={timeToRead}
+            timeToRead={timeToRead + " min de leitura"}
             title={title}
             description={description}
           />
