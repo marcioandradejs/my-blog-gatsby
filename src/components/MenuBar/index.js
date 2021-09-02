@@ -25,12 +25,16 @@ const MenuBar = () => {
   return (
     <S.MenuBarWrapper>
       <S.MenuBarGroup>
-        <S.MenuBarLink to="/" title="Voltar para a Home">
+        <S.MenuBarLink
+          to="/"
+          title="Voltar para a Home"
+          activeClassName="active"
+        >
           <S.MenuBarItem>
             <Home />
           </S.MenuBarItem>
         </S.MenuBarLink>
-        <S.MenuBarLink to="/search" title="Pesquisar">
+        <S.MenuBarLink to="/search" title="Pesquisar" activeClassName="active">
           <S.MenuBarItem>
             <Search />
           </S.MenuBarItem>
@@ -51,12 +55,15 @@ const MenuBar = () => {
           onClick={() => {
             window.__setPreferredDisplay(isListMode ? "grid" : "list")
           }}
+          className="display"
         >
           {isListMode ? <Grid /> : <List />}
         </S.MenuBarItem>
-        <S.MenuBarItem title="Ir para o topo da página">
-          <Arrow />
-        </S.MenuBarItem>
+        <S.MenuBarLink to="#" title="Ir para o topo da página">
+          <S.MenuBarItem>
+            <Arrow />
+          </S.MenuBarItem>
+        </S.MenuBarLink>
       </S.MenuBarGroup>
     </S.MenuBarWrapper>
   )

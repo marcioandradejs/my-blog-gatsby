@@ -68,7 +68,7 @@ export const MenuBarItem = styled.span`
   }
 
   &.display {
-    ${media.lessThan("large")`
+    ${media.lessThan("medium")`
       display: none;
     `}
   }

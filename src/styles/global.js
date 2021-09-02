@@ -63,6 +63,10 @@ const GlobalStyles = createGlobalStyle`
   	height: auto;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body.dark {
     --borders: #38444d;
     --texts: #8899a6;
